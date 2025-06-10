@@ -9,33 +9,30 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
-h2, h3, p, ul, ol {
-  margin-bottom: 3px;
-  padding: 0.5px; 
-}
-
-li {
-  margin-bottom: 0.5em;
+#imagenx{
+  width: 70%;
+  height: auto;
 }
 
 #main {
   width: 80%;
-  max-width: 1200px;
-  height: 720px;
+  height: auto;
   background-color: #c23616;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 #header {
   width: 100%;
   height: 120px;
   background-color: #00a8ff;
-  text-align: center;
   color: white;
   line-height: 120px;
   font-size: 30px;
+  text-align: center;
+}
+
+#titulo_principal {
+  margin-left: 300px;
 }
 
 #nav {
@@ -47,56 +44,40 @@ li {
 }
 
 #nav a {
-  margin-right: 20px;      
-  text-decoration: none;   
-  color: white;            
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
   font-weight: bold;
   padding: 3px;
-  display: inline-block;
 }
-
-
 
 #section {
   width: 100%;
-  height: 500px;
+  height: auto;
   background-color: #487eb0;
-
-
+  overflow: hidden;
 }
 
 #izquierda {
   width: 60%;
-  height: 500px;
+  height: 555px;
   background-color: #dcdde1;
   float: left;
-  box-sizing: border-box;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;   
-  align-items: margin-left;       
-  text-align: margin-left;        
   padding: 25px;
+  box-sizing: border-box;
 }
-
 
 #derecha {
   width: 40%;
-  height: 500px;
+  height: 555px;
   background-color: #f5f6fa;
   float: left;
   padding: 20px;
   box-sizing: border-box;
+  text-align: center;
 }
 
-#derecha img {
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto; 
-}
+
 
 #footer {
   width: 100%;
@@ -105,5 +86,21 @@ li {
   text-align: center;
   line-height: 50px;
   color: white;
-  clear: both;
+  border: 1px solid red;
+  
+}
+
+h2, h3, p, ul, ol {
+  margin-bottom: 3px;
+  padding: 0.5px;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+#click {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 14px;
 }
